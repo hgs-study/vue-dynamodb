@@ -1,24 +1,15 @@
 # vue-dynamodb
 
-## Project setup
+### DynamoDB Local
+----
++ 참고
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+    - https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html
+    - https://docs.aws.amazon.com/ko_kr/sdk-for-javascript/v2/developer-guide/dynamodb-examples-using-tables.html
 ```
 
-### Compiles and minifies for production
+#### DynamoDB Local 실행
++ 실행 (해당 디렉토리)
 ```
-npm run build
+    java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
